@@ -1,0 +1,15 @@
+.ram__home {
+    background-color: rgb(17 24 39 / 1);
+    color: rgb(255 255 255 / 1);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+    > section {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10rem;
+    }
+}

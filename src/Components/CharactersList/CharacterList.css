@@ -1,0 +1,20 @@
+.ram__characterList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2.5rem;
+
+    > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        > p {
+            font-size: 3rem;
+            line-height: 1;
+            text-align: center;
+            width: 75%;
+            margin-top: 2.5rem;
+        }
+    }
+}
