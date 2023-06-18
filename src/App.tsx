@@ -5,8 +5,8 @@ export function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about/:id" element={<About />} />
+                <Route path="/Rick-And-Morty-TypeScript" element={<Home />} />
+                <Route path="/Rick-And-Morty-TypeScript/about/:id" element={<About />} />
                 <Route path="*" element={<h1>404 Not Found</h1>} />
             </Routes>
         </Router>

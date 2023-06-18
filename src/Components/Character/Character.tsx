@@ -14,7 +14,7 @@ export function Character({
             <img
                 src={image}
                 alt={name}
-                onClick={() => navigate(`/about/${id}`)}
+                onClick={() => navigate(`/Rick-And-Morty-TypeScript/about/${id}`)}
             />
         </section>
     );
