@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { useParams } from "react-router-dom";
 
 import { CharactersContext } from "../../Context/CharactersContext";
-import { H1 } from "../../Components/H1/H1";
+import { H1 } from "../../Components";
 
 import "./About.css";
 

@@ -1,4 +1,4 @@
-import { CharacterList } from "../../Components/CharactersList/CharacterList";
+import { CharactersList } from "../../Components";
 import { H1 } from "../../Components/H1/H1";
 
 import "./Home.css";
@@ -8,7 +8,7 @@ export function Home() {
         <main className="ram__home">
             <section>
                 <H1 />
-                <CharacterList />
+                <CharactersList />
             </section>
         </main>
     );

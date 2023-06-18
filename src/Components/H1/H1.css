@@ -3,8 +3,8 @@
     line-height: 1;
     text-align: center;
     cursor: pointer;
+}
 
-    &:hover {
-        filter: drop-shadow(0 0 0.5em #fff);
-    }
+.ram__h1:hover {
+    filter: drop-shadow(0 0 0.5em #fff);
 }

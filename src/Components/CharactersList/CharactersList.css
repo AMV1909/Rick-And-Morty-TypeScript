@@ -1,0 +1,20 @@
+.ram__charactersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2.5rem;
+}
+
+.ram__charactersList > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ram__charactersList > div > div {
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+    width: 75%;
+    margin-top: 2.5rem;
+}

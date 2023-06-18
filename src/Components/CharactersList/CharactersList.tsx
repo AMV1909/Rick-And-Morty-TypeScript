@@ -1,16 +1,15 @@
 import { useContext } from "react";
 
 import { CharactersContext } from "../../Context/CharactersContext";
-import { Character } from "../Character/Character";
-import { Navbar } from "../Navbar/Navbar";
+import { Character, Navbar } from "../../Components";
 
-import "./CharacterList.css";
+import "./CharactersList.css";
 
-export function CharacterList() {
+export function CharactersList() {
     const { characters, loading } = useContext(CharactersContext);
 
     return (
-        <section className="ram__characterList">
+        <section className="ram__charactersList">
             <Navbar />
 
             <div>

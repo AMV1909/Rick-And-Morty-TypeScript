@@ -9,49 +9,49 @@
 .ram__navbar-search {
     display: flex;
     align-items: center;
+}
 
-    & input {
-        background-color: rgb(31 41 55 / 1);
-        color: rgb(255 255 255 / 1);
-        border: 0;
-        border-radius: 0.25rem;
-        padding: 0.5rem;
-        appearance: none;
-        margin-left: 1.25rem;
-        font-size: 16px;
-    }
+.ram__navbar input {
+    background-color: rgb(31 41 55 / 1);
+    color: rgb(255 255 255 / 1);
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    appearance: none;
+    margin-left: 1.25rem;
+    font-size: 16px;
 }
 
 .ram__navbar-goTo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
-    & button {
-        background-color: rgb(59 130 246 / 1);
-        color: rgb(255 255 255 / 1);
-        padding: 0.5rem;
-        border: 0;
-        border-radius: 0.25rem;
-        cursor: pointer;
-        font-size: 16px;
+.ram__navbar-goTo button {
+    background-color: rgb(59 130 246 / 1);
+    color: rgb(255 255 255 / 1);
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 16px;
+}
 
-        &:hover {
-            background-color: rgb(29 78 216 / 1);
-        }
-    }
+.ram__navbar-goTo button:hover {
+    background-color: rgb(29 78 216 / 1);
+}
 
-    & input {
-        background-color: rgb(31 41 55 / 1);
-        color: rgb(255 255 255 / 1);
-        text-align: center;
-        border: 0;
-        border-radius: 0.25rem;
-        padding: 0.5rem;
-        appearance: none;
-        width: 100%;
-        font-size: 16px;
-    }
+.ram__navbar-goTo input {
+    background-color: rgb(31 41 55 / 1);
+    color: rgb(255 255 255 / 1);
+    text-align: center;
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    appearance: none;
+    width: 100%;
+    font-size: 16px;
 }
 
 @media (min-width: 0) {

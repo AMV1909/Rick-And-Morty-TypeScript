@@ -1,18 +1,18 @@
 .ram__character {
     margin: 2.5rem 2.5rem 0;
+}
 
-    > h2 {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-        text-align: center;
-    }
+.ram__character > h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: center;
+}
 
-    > img {
-        border-radius: 9999px;
-        cursor: pointer;
+.ram__character > img {
+    border-radius: 9999px;
+    cursor: pointer;
+}
 
-        &:hover {
-            filter: drop-shadow(0 0 0.5em #fff);
-        }
-    }
+.ram__character > img:hover {
+    filter: drop-shadow(0 0 0.5em #fff);
 }
